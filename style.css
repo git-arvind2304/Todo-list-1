@@ -134,25 +134,73 @@ ul li span:hover{
             }
         }
 
-          /* Small Mobile Styles (360px and below) */
-        @media (max-width: 360px) {
-            .todo-header h1 {
-                font-size: 1.6rem;
-            }
-        }
-
-              /* Mobile Styles (480px and below) */
-        @media (max-width: 480px) {
-            body {
-                padding: 10px;
-                padding-top: 10px;
-            }
-        }
-
-            /* Tablet Styles (768px and below) */
+           /* Responsive Design */
         @media (max-width: 768px) {
-            body {
+            .container {
+                padding: 10px;
+            }
+            
+            .app-header h1 {
+                font-size: 2.2rem;
+            }
+            
+            .todo-card {
+                padding: 20px;
+            }
+            
+            .input-container {
+                flex-direction: column;
+            }
+            
+            #add-btn {
+                justify-content: center;
+                padding: 18px;
+            }
+            
+            .filter-container {
+                justify-content: space-between;
+            }
+            
+            .filter-btn {
+                flex: 1;
+                padding: 12px 15px;
+                font-size: 0.9rem;
+            }
+            
+            .todo-item {
                 padding: 15px;
-                padding-top: 20px;
+            }
+            
+            .todo-actions {
+                flex-direction: column;
+                gap: 8px;
+            }
+            
+            .todo-btn {
+                width: 35px;
+                height: 35px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .app-header h1 {
+                font-size: 1.8rem;
+            }
+            
+            .stats-container {
+                flex-direction: column;
+                gap: 15px;
+            }
+            
+            .stat-value {
+                font-size: 1.5rem;
+            }
+            
+            .todo-text {
+                font-size: 1rem;
+            }
+            
+            .filter-container {
+                flex-direction: column;
             }
         }
