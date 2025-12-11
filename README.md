@@ -4,6 +4,7 @@ A beautiful, responsive, and animated todo list application that works seamlessl
  
 🔗 Live Demo
 Click here to view the live application
+https://git-arvind2304.github.io/Todo-list-1/
 
 ✨ Features
 🎨 Modern Design
@@ -88,28 +89,14 @@ Navigate to the project directory
 bash
 cd Todo-list-1
 Open the application
-
 Simply open index.html in your browser
-
 Or use a local server:
 
-bash
-# Using Python
-python -m http.server 8000
-
-# Using Node.js with http-server
-npx http-server
+ 
 📸 Screenshots
-(Add screenshots here by uploading them to your repository and linking them)
+ <img width="1358" height="983" alt="image" src="https://github.com/user-attachments/assets/7d5a3be6-845c-4056-b621-aeede1fc7374" />
 
-Mobile View
-https://screenshots/mobile.png
-
-Tablet View
-https://screenshots/tablet.png
-
-Desktop View
-https://screenshots/desktop.png
+ 
 
 🎯 How to Use
 Adding a Task
@@ -213,9 +200,9 @@ Implement user accounts with cloud sync
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 👤 Author
-Arvind
+Arvind Talekar
 
-GitHub: @git-arvind2304
+GitHub: https://github.com/git-arvind2304/
 
 Project Link: https://github.com/git-arvind2304/Todo-list-1
 
